@@ -7,23 +7,23 @@ body {
   height: 100vh;
   display: flex;
 }
-.container .esquerdo {
+.container .left {
   width: 50%;
-  background-color: rgb(127, 187, 189);
+  background-color: #164B60;
 }
-.container .esquerdo .texto {
+.container .left .text {
   margin-top: 40%;
   text-align: center;
   font-size: 150px;
-  color: rgb(113, 4, 122);
+  color: #A2FF86;
 }
-.container .direito {
+.container .right {
   width: 50%;
-  background-color: rgb(113, 4, 122);
+  background-color: #A2FF86;
 }
-.container .direito .texto {
+.container .right .text {
   margin-top: 40%;
   text-align: center;
   font-size: 150px;
-  color: rgb(127, 187, 189);
+  color: #164B60;
 }/*# sourceMappingURL=style.css.map */
