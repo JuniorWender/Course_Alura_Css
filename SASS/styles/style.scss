@@ -1,0 +1,36 @@
+$primary-color: #164B60;
+$secondary-color: #A2FF86;
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin color-text($bg-color, $txt-color) {
+    width: 50%;
+    background-color: $bg-color;
+    .text {
+        margin-top: 40%;
+        text-align: center;
+        font-size: 150px;
+        color: $txt-color;
+    }
+}
+
+body {
+    @include reset();
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+
+    .left {
+       @include color-text($primary-color, $secondary-color);
+    }
+
+    .right {
+       @include color-text($secondary-color, $primary-color);
+    }
+}
+
